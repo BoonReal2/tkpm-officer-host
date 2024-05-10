@@ -21,7 +21,7 @@ const reportedPopupModal = new mapboxgl.Popup({
   closeOnClick: false,
 });
 
-const serverPathModal = "http://localhost:5000";
+const serverPathModal = "https://tkpm-officer-host.onrender.com";
 
 const inspectClusterModal = (e, layer) => {
   const features = modalMap.queryRenderedFeatures(e.point, {

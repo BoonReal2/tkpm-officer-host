@@ -24,7 +24,7 @@ const selfReportedPopup = new mapboxgl.Popup({
   closeButton: false,
   closeOnClick: false,
 });
-const serverPath = "http://localhost:5000";
+const serverPath = "https://tkpm-officer-host.onrender.com";
 
 const myModalEl = document.getElementById("createModal");
 //Resize map in the modal

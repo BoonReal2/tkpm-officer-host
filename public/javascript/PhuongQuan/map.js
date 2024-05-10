@@ -36,7 +36,7 @@ const reportedPopup = new mapboxgl.Popup({
   closeOnClick: false,
 });
 
-const serverPath = "http://localhost:5000";
+const serverPath = "https://tkpm-officer-host.onrender.com";
 
 //Function definition
 const inspectCluster = (e, layer) => {
